@@ -16,7 +16,7 @@
    1.2 - [Situação Abordada](#12-situação-abordada)<br>
 2. [DESENVOLVIMENTO](#2-desenvolvimento)<br>
 3. [CONCLUSÃO](#3-conclusão)
-4. [REFERÊNCIAS](#4-referências)
+4. [FERRAMENTAS UTILIZADAS](#4-ferramentas-utilizadas)
 5. [COMO ADQUIRIR A AUTOMATIZAÇÃO](#5-como-adquirir-a-automatização)
 
 ## 1 INTRODUÇÃO
@@ -43,7 +43,7 @@
 - Planilha "Audit.xlsm"
 
 ```link
-[Baixar Planilha](Projeto VBA Automatizacao de Comentario/Audit.xlsm)
+[Baixar Planilha](Audit.xlsm)
 ```
 
 <p>
@@ -222,12 +222,10 @@ Produto não Tributado
 ## 3 CONCLUSÃO
 
 <p>
-No final do processo basta retornar a planilha para o cliente, pois a mesma já está auditada.
+No final do processo basta retornar a planilha para o cliente, pois a mesma estará auditada.
 </p>
 
-## 4 REFERÊNCIAS
-
-### 4.1 Ferramentas Utilizadas
+## 4 FERRAMENTAS UTILIZADAS
 
 - Excel
 
