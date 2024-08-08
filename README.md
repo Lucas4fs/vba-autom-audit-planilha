@@ -37,13 +37,11 @@
 
 - Planilha "Cliente.xlsm"
 
-[Baixar Planilha](Projeto VBA Automatizacao de Comentario/Cliente.xlsm)
-
+[DOWNLOAD](Cliente.xlsm)
 
 - Planilha "Audit.xlsm"
 
-[Baixar Planilha](Audit.xlsm)
-
+[DOWNLOAD](Audit.xlsm)
 
 <p>
   Dentro da planilha "Cliente.xlsm" existem várias colunas, cada uma tem sua função, abaixo será detalhado as funções das colunas que iremos usar:
