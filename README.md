@@ -131,8 +131,6 @@
  Informa o número da nota fiscal inserido pelo supermercado
 </p>
 
-<img src="Imagens\colunasComent.png">
-
 <p>
   Dentro da planilha "Audit.xlsm" na aba "Exceções de ST Alíquota e ST" são cadastrados os mesmos produtos que o cliente possui na planilha "Cliente.xlsm", mas com a alíquota de ICMS correta
 </p>
@@ -165,7 +163,7 @@ A mesma lógica serve para auditar o PIS e COFINS do produto, a diferença é qu
 <img src="Imagens\pisEcofinsAutom.gif">
 
 <p>
-O código em VBA segue uma lógica para poder inserir o comentário correto, segue abaixo uma lista dos requisitos que devem existir para que o comentário seja inserido corretamente na coluna "Considerações ICMS":
+A macro em VBA  que preenche a coluna "Considerações ICMS" segue uma lógica para poder inserir o comentário correto, abaixo mostramos a lista dos critérios que devem existir para que os comentários sejam inseridos:
 </p>
 
 - Cliente usando CST 00 ou 20 e auditor usando CST 40
@@ -216,10 +214,38 @@ Produto Tributado
 
 Produto não Tributado
 
+- Quando os dados de CST e alíquota do cliente são iguais aos dados do auditor
+
+Ok Conferido
+
+<p>
+A macro em VBA  que preenche a coluna "Considerações PIS/COFINS" segue uma lógica para poder inserir o comentário correto, abaixo mostramos a lista dos critérios que devem existir para que os comentários sejam inseridos:
+</p>
+
+- Quando o auditor usa 1 no CST e o cliente usa algum CST diferente de 1
+
+Produto Tributado
+
+- Quando o auditor usa 4 no CST e o cliente usa algum CST diferente de 4
+
+Produto Monofásico
+
+- Quando o auditor usa 5 no CST e o cliente usa algum CST diferente de 5
+
+Substituição Tributária
+
+- Quando o auditor usa 6 no CST e o cliente usa algum CST diferente de 6
+
+Produto Sujeito à Alíquota 0
+
+- Quando o cliente usa um CST igual ao do auditor
+
+Ok Conferido
+
 ## 3 CONCLUSÃO
 
 <p>
-No final do processo basta retornar a planilha para o cliente, pois a mesma estará auditada.
+No final do processo basta retornar a planilha "Cliente.xlsm" para o cliente, pois a mesma estará auditada.
 </p>
 
 ## 4 FERRAMENTAS UTILIZADAS
