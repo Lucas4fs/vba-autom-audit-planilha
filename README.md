@@ -5,7 +5,6 @@
     🟦🟧 PREENCHIMENTO/AUDITORIA DE PLANILHA NO EXCEL AUTOMATIZADO COM VBA 🟨🟪
     </h1>
 </p>
-<br>
 
 <h2>
     📑 SUMÁRIO
