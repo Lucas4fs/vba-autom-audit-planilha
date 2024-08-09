@@ -1,9 +1,9 @@
 <p align="center">
-    <img src="Imagens\CapaProjetoVBA.png">
-    <br>
     <h1 align="center">
-    🟦🟧 PREENCHIMENTO/AUDITORIA DE PLANILHA NO EXCEL AUTOMATIZADO COM VBA 🟨🟪
+        🟦🟧 PREENCHIMENTO/AUDITORIA DE PLANILHA NO EXCEL   AUTOMATIZADO COM VBA 🟨🟪
     </h1>
+    <br>
+    <img src="Imagens\CapaProjetoVBA.png">
 </p>
 
 <h2>
