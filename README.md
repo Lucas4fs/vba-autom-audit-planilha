@@ -34,7 +34,7 @@
 ## 2 DESENVOLVIMENTO
 
 <p>
-Abaixo serão disponibilizados os arquivos já prontos para uso, mas também será feita a explicação do zero para que todo o processo possa ser entendido
+Abaixo serão disponibilizados os arquivos já prontos para uso, mas também será feita a explicação do zero para que todo o processo possa ser entendido:
 </p>
 
 - Planilha "Cliente.xlsm"
