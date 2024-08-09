@@ -559,7 +559,7 @@ Ok Conferido
 ## 3 CONCLUSÃO
 
 <p>
-No final do processo basta retornar a planilha "Cliente.xlsm" para o cliente, pois a mesma estará auditada.
+No final do processo basta retornar a planilha "Cliente.xlsm" auditada para o cliente.
 </p>
 
 ## 4 FERRAMENTAS UTILIZADAS
